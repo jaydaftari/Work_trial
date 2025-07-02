@@ -1,0 +1,42 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage/
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Version control
+.git/
+.gitignore
+
+# Editor/IDE specific
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Kafka related
+kafka-logs/
+# Add any specific Kafka-related temporary files or logs
+
+# PostgreSQL related
+postgres-data/
+# Add any specific PostgreSQL-related temporary files or logs
+
+# Development specific (if not needed in the final image)
+docker-compose.yml
+Dockerfile
